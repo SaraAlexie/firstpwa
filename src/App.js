@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react';
-//import logo from './logo.svg';
 import './App.css';
 import OneSignal from 'react-onesignal';
-import Location from './components/location';
+import Location from './components/Location';
+import PWAPrompt from 'react-ios-pwa-prompt';
+import Testlocalbase from './components/Testlocalbase';
 
 function App() {
 
@@ -15,6 +16,8 @@ function App() {
   return (
     <div className="App">
       <Location />
+      <Testlocalbase />
+      <PWAPrompt />
     </div>
   );
 }
