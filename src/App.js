@@ -4,6 +4,7 @@ import OneSignal from 'react-onesignal';
 import Location from './components/Location';
 import PWAPrompt from 'react-ios-pwa-prompt';
 import Testlocalbase from './components/Testlocalbase';
+import Map from './components/Map';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
     <div className="App">
       <Location />
       <Testlocalbase />
+      <Map />
       <PWAPrompt />
     </div>
   );
