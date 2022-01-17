@@ -1,1 +1,1 @@
-Min første pwa
+First pwa. Proof of concept.
